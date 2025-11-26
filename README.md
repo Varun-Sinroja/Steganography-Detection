@@ -24,12 +24,12 @@ It generates cover and stego images, extracts statistical features from them, an
 
 ```text
 .
-├── images/                     # Folder for cover & stego images
-├── example_1_setup.py          # Tests Pillow, NumPy, OpenCV
+├── images/                     # Folder for cover & stego images (initially empty)
+├── example_1_setup.py          # Tests Pillow, NumPy, and OpenCV
 ├── example_2_generate_stego.py # Generates cover & stego images
 ├── example_3_verify_stego.py   # Reads hidden messages from stego images
 ├── example_3_dataset_structure.txt # Notes about the dataset (optional)
-├── example_4_extract_features.py   # Extracts features and builds features_dataset.csv
-├── example_5_train_model.py        # Trains ML models and saves stego_model.pkl
-├── requirements.txt            # Python dependencies
+├── example_4_extract_features.py   # Extracts features and saves CSV
+├── example_5_train_model.py        # Trains ML models (RF & SVM)
 └── README.md
+
